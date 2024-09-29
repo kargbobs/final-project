@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Food Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#sustainability">Sustainability</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Landing Section -->
+    <section id="home" class="landing-section">
+        <h1>Tech-Enabled Solutions for Food Production and Distribution</h1>
+        <p>Enhancing yield, reducing waste, and promoting sustainability.</p>
+        <button onclick="location.href='#signup';">Sign Up Now</button>
+    </section>
+
+    <!-- Info Cards Section -->
+    <section id="features" class="info-cards">
+        <div class="card">
+            <h2>Increase Yield</h2>
+            <p>Use data to track crop health and optimize production.</p>
+        </div>
+        <div class="card">
+            <h2>Reduce Waste</h2>
+            <p>Improve food processing efficiency and minimize losses.</p>
+        </div>
+        <div class="card">
+            <h2>Improve Sustainability</h2>
+            <p>Monitor environmental impact and promote eco-friendly practices.</p>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <header>
+            <h1>Sustainable Food Management Dashboard</h1>
+        </header>
+
+        <div class="yield-section">
+            <h2>Crop Yield Data</h2>
+            <p>Crop Yield Data refers to the amount of agricultural produce harvested per unit of land.</p>
+            <canvas id="yieldChart"></canvas>
+        </div>
+
+        <div class="waste-section">
+            <h2>Waste Reduction Tracker</h2>
+            <form id="wasteForm">
+                <label for="foodType">Food Type:</label>
+                <input type="text" id="foodType" name="foodType" required>
+
+                <label for="amount">Amount Wasted (kg):</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <button type="submit">Report Waste</button>
+            </form>
+            <div id="wasteReport"></div>
+        </div>
+
+        <div class="distribution-section">
+            <h2>Distribution Management</h2>
+            <p>Overseeing the movement of goods from producers to final consumers efficiently and cost-effectively.</p>
+            <div id="distributionMap"></div>
+        </div>
+    </section>
+</body>
+</html>
+
+

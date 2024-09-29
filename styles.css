@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.landing-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.landing-section h1 {
+    font-size: 2.5rem;
+}
+
+.landing-section p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.landing-section button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.landing-section button:hover {
+    background-color: #218838;
+}
+
+/* Info Cards */
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.8rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+/* Dashboard Section */
+.dashboard {
+    padding: 50px;
+    background-color: #eee;
+}
+
+.dashboard h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.yield-section, .waste-section, .distribution-section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
